@@ -6,14 +6,7 @@ api:
       - yarn
       - yarn run build
     deploy:
-      - config
-      - data
-      - database
-      - node_modules
-      - public
-      - build
-      - favicon.png
-      - package.json
+      - ./
     cache:
       - node_modules
   run:
